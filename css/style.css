@@ -1,0 +1,157 @@
+body {
+    font-family: 'Merriweather', serif;
+    /*priority from left to right */
+    margin: 0;
+    text-align: center;
+    /*Doesn't work if change the width of block elements. THere use margin*/
+}
+a{
+    color:#11999E;
+}
+#pro{
+    width:18%;
+}
+h1 {
+    line-height: 1;     /*Space from top and bottom*/
+    /*font-size: 5.625em;   px is static. 100%=16px; 1em=16px;* em and % are inherited, i.e, added on top of previous parent*/
+    margin:50px auto 0;
+    font-size: 5.625rem; /* not inherited and dynamic*/
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    /* margin: 0 auto 0 auto; */
+    /* margin: 0 auto; */
+}
+a{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+#copyright{
+    color: #EAF6F6;
+    font-size: .75em;
+    padding: 20px 0;
+}
+.tagline{
+    font-size:2.5rem;
+}
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    line-height: 2;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto;
+    text-align: left;
+}
+.top-container {
+    padding-top: 7em;
+    position: relative;
+    background-color: #E4F9F5;
+    /* border: solid 10px;
+    height:200px;
+    width:200px;
+    padding:20px; */
+}
+
+  .middle-container{
+    margin:100px auto;
+  }
+  
+  .btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2cb48d);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2cb48d);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2cb48d);
+    background-image: -o-linear-gradient(top, #30e3cb, #2cb48d);
+    background-image: linear-gradient(to bottom, #30e3cb, #2cb48d);
+    text-decoration: none;
+  }
+
+/* .middle-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    /*border: solid 20px;   /*grows outward 
+    margin-left:260px; 
+} */
+
+/* .bottom-container {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    /*border: solid 10px;
+    margin-left:500px; 
+} */
+hr{
+    margin:100px auto;
+    color: #EAF6F6;
+    border: none;
+    border-top: dotted 10px;
+    width:7%;
+}
+
+#top-cloud {
+
+    position: absolute;
+    /*display:
+                                block (default) take whole space. 
+                                Inline takes as much as needs but cannot change width. 
+                                Inline-block is inline and width mutable.
+                                None hides object like visibility but None removes its place also
+                                Children sit on top of parent*/
+
+    /*position:
+                                Static (Default HTML flow)
+                                Relative positions things relative to (default) static position.
+                                Relative doesn't effect flow of other content. Coordinates specify push direction.
+                                Absolute positions things relative to parent (closest parent with relative layout)
+                                Absolute effects flow of other content.
+                                Fixed is relative to webpage and remains there even when scrolling.
+                                */
+    right: 20%;
+    top: 8%;
+    width: 10%;
+}
+
+#mountain {
+    width: 30%;
+}
+
+#bottom-cloud {
+    position: absolute;
+    width: 10%;
+    left: 20%;
+}
+.bottom-container{
+    padding: 50px 0 20px;
+}
